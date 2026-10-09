@@ -1,0 +1,12 @@
+
+node_modules/
+
+# Keep environment variables out of version control
+.env
+
+# Banco de dados local
+*.db
+*.db-journal
+
+# Arquivos gerados pelo Prisma
+/src/generated/prisma
